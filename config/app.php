@@ -15,6 +15,9 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    'yt_key' => env('YT_KEY', null),
+    'yt_fallback' => env('YT_FALLBACK', 'apex legends'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
